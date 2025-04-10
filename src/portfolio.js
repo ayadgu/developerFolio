@@ -20,26 +20,25 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Guillaume Ayad",
+  title: "Hi all, I'm Guillaume",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a tech enthusiast who loves diving into code and automating things. Whether it's finding bugs, solving problems, or just making stuff work better, I’m always up for the challenge. I enjoy learning new things and using technology to make processes smoother and more efficient. It’s all about improving, fixing, and making things run like they should!"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/ayadgu",
+  linkedin: "https://www.linkedin.com/in/guillaume-ayad/",
+  gmail: "ayadguillaume@gmail.com",
+  gitlab: "",
+  facebook: "",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -51,12 +50,12 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
+    // Array that contains individual skills.
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Data analysis and insights generation from large datasets using SQL, Python, and other tools"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Automation of processes and workflows to reduce manual intervention and improve efficiency"
     )
   ],
 
@@ -121,28 +120,30 @@ https://fontawesome.com/icons?d=gallery */
 };
 
 // Education Section
-
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
+      schoolName: "Efrei",
+      // logo: require("./assets/images/efreiLogo.png"), // Replace with actual logo path if needed
+      subHeader: "Master in Computer Science",
       duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Focused on software engineering, data analysis, and cloud infrastructure.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Worked on software engineering projects.",
+        "Gained practical experience in data analysis and cloud technologies."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
+      schoolName: "San Jose State University",
+      // logo: require("./assets/images/sjsuLogo.png"), // Replace with actual logo path if needed
+      subHeader: "Bachelor in Computer Science",
       duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Studied core computer science concepts, with a focus on software development and systems.",
+      descBullets: [
+        "Completed courses in software development and systems programming.",
+        "Gained hands-on experience with programming languages and development tools."
+      ]
     }
   ]
 };
@@ -169,34 +170,74 @@ const techStack = {
 };
 
 // Work experience section
-
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Application Analyst",
+      company: "Total",
+      // companylogo: require("./assets/images/totalLogo.png"), // Replace with the actual logo if needed
+      date: "Date Range Here",
+      desc: "Worked on the analysis and optimization of internal applications, focusing on enhancing system performance and user experience.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Analyzed and improved internal software systems.",
+        "Collaborated with cross-functional teams to resolve issues and implement new features."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Consultant",
+      company: "Sopra Steria",
+      // companylogo: require("./assets/images/soprasteriaLogo.png"), // Replace with actual logo if needed
+      date: "Date Range Here",
+      desc: "Contributed to consulting projects with a focus on optimizing business processes and implementing technology solutions.",
+      descBullets: [
+        "Worked on client-facing projects, ensuring smooth deployment of software solutions.",
+        "Collaborated with various stakeholders to define project requirements and implement technology solutions."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Consultant",
+      company: "Accenture",
+      // companylogo: require("./assets/images/accentureLogo.png"), // Replace with actual logo if needed
+      date: "Date Range Here",
+      desc: "Participated in consulting engagements, focusing on process improvement and technology-driven solutions.",
+      descBullets: [
+        "Worked on delivering tailored solutions to clients.",
+        "Analyzed and optimized business processes for improved efficiency."
+      ]
+    },
+    {
+      role: "Junior IT Consultant",
+      company: "Sve Immobilier",
+      // companylogo: require("./assets/images/sveimmobilierLogo.png"), // Replace with actual logo if needed
+      date: "Date Range Here",
+      desc: "Assisted in the implementation of IT solutions and provided support for system integration.",
+      descBullets: [
+        "Supported IT infrastructure projects for real estate management.",
+        "Provided troubleshooting and support for IT systems."
+      ]
+    },
+    {
+      role: "Career Break",
+      company: "Personal",
+      // companylogo: null,
+      date: "Date Range Here",
+      desc: "Took a year-long break for personal growth, travel, and exploring new opportunities.",
+      descBullets: [
+        "Focused on personal development and expanding technical knowledge.",
+        "Engaged in various self-improvement activities."
+      ]
+    },
+    {
+      role: "Data Analyst",
+      company: "Praxedo",
+      // companylogo: require("./assets/images/praxedoLogo.png"), // Replace with actual logo if needed
+      date: "Date Range Here",
+      desc: "Focused on data analysis and process automation to drive business insights and improvements.",
+      descBullets: [
+        "Automated data processing workflows and optimized reporting processes.",
+        "Analyzed large data sets to provide insights for decision-making."
+      ]
     }
   ]
 };
@@ -239,7 +280,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +341,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -318,13 +359,13 @@ const blogSection = {
         "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
+      url: "https://medium.com/@Guillaumepasta/why-react-is-the-best-5a97563f423e",
       title: "Why REACT is The Best?",
       description:
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -339,11 +380,11 @@ const talkSection = {
     {
       title: "Build Actions For Google Assistant",
       subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
+      slides_url: "https://bit.ly/Guillaumepasta-slides",
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -354,9 +395,9 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://anchor.fm/codevcast/embed/episodes/DevStory---Guillaume-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,18 +413,18 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  // number: "+33676178087",
+  email_address: "ayadguillaume@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  userName: "hello", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
